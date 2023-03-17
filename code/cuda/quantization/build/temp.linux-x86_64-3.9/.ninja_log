@@ -1,0 +1,13 @@
+# ninja log v5
+1	16193	1676651325491482900	/mnt/c/Users/leona/Projects/TU-Dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize.o	e7e2edad524e9bde
+1	40013	1676651349310148600	/mnt/c/Users/leona/Projects/TU-Dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize_kernels.o	f2787fbe3ef90072
+3	18530	1677950039208893200	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize.o	c8f36f023efd9bcd
+3	47903	1677950068583273400	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize_kernels.o	132690ac68cd3268
+4	13830	1678389626677976200	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize.o	c4acd0556e8c72a2
+5	32865	1678389645713288600	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize_kernels.o	effa1f8fd06c6746
+3	13346	1678818473917864100	/mnt/c/Users/leona/projects/tu-dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize.o	b1be8a42109dfe89
+3	31662	1678818492232246700	/mnt/c/Users/leona/projects/tu-dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize_kernels.o	7c8678e0e5807d67
+2	13905	1678984788410611900	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize.o	c4acd0556e8c72a2
+3	33039	1678984807544781900	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize_kernels.o	effa1f8fd06c6746
+2	14267	1679051721818314800	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG-fmnist-cifar-bun/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize.o	f1edab38f288f9ad
+2	33999	1679051741550774200	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG-fmnist-cifar-bun/code/cuda/quantization/build/temp.linux-x86_64-3.9/quantize_kernels.o	657529cd9dc92546

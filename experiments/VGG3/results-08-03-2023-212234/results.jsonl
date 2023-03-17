@@ -1,0 +1,1 @@
+{"model": "VGG3", "batchsize": 256, "epochs": 1, "learning_rate": 0.001, "gamma": 0.5, "stepsize": 25, "test_error": [39.6, 13.81, 10.01, 14.469999999999999, 9.98]}

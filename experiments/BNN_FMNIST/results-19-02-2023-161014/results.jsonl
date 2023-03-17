@@ -1,0 +1,1 @@
+{"model": "BNN_FMNIST", "batchsize": 256, "epochs": 1, "learning_rate": 0.001, "gamma": 0.5, "stepsize": 25, "test_error": [{"perror": 0.1, "accuracy": 79.05}, {"perror": 0.25, "accuracy": 48.06}, {"perror": 0.5, "accuracy": 39.12}, {"perror": 0.75, "accuracy": 28.76}, {"perror": 0.9, "accuracy": 39.129999999999995}]}

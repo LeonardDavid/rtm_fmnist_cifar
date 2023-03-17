@@ -1,0 +1,13 @@
+# ninja log v5
+2	19421	1676651372061605400	/mnt/c/Users/leona/Projects/TU-Dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI.o	7653d8435d9b1a7e
+2	49700	1676651402339367900	/mnt/c/Users/leona/Projects/TU-Dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI_kernels.o	1dae549e3e248f36
+4	17995	1677950089841868000	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI.o	5093d0cb5c8b8c3c
+4	51548	1677950123395969600	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI_kernels.o	caf3cc6526c654a6
+4	13849	1678389662315662200	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI.o	f5d2eae0e49c611f
+4	34287	1678389682752000100	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI_kernels.o	cb6427da565f40f2
+2	14180	1678818510051492000	/mnt/c/Users/leona/projects/tu-dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI.o	7485408bd57e883b
+3	33681	1678818529551078800	/mnt/c/Users/leona/projects/tu-dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI_kernels.o	5a2f54d145579352
+2	14146	1678984824475967800	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI.o	f5d2eae0e49c611f
+2	34470	1678984844797137900	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI_kernels.o	cb6427da565f40f2
+2	14604	1679051759044184800	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG-fmnist-cifar-bun/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI.o	5533d626822d8db5
+2	35553	1679051779993315000	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG-fmnist-cifar-bun/code/cuda/quantizationFI/build/temp.linux-x86_64-3.9/quantizeFI_kernels.o	27b83f24574337d

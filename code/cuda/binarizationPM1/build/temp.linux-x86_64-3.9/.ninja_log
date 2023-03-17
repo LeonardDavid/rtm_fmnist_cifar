@@ -1,0 +1,13 @@
+# ninja log v5
+1	19429	1676651202922391300	/mnt/c/Users/leona/Projects/TU-Dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1.o	bf85137df168cd8a
+2	40885	1676651224381221900	/mnt/c/Users/leona/Projects/TU-Dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1_kernel.o	b5756e15c7cf112
+2	17110	1677949895395709300	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1.o	1eb010231c5025d2
+2	43849	1677949922135989800	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1_kernel.o	bdeacf3e289e2fa6
+4	13902	1678389551540793300	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1.o	12eecfd58a863fab
+5	32828	1678389570466171900	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1_kernel.o	f81cc612f16b6d5d
+3	17175	1678818341432184200	/mnt/c/Users/leona/projects/tu-dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1.o	9d91dbae5b76f35c
+4	43106	1678818367358708000	/mnt/c/Users/leona/projects/tu-dortmund/RTM/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1_kernel.o	442bb8561c0a8a22
+2	12971	1678984679125762400	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1.o	12eecfd58a863fab
+3	31349	1678984697503436300	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1_kernel.o	f81cc612f16b6d5d
+2	14888	1679051609686425900	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG-fmnist-cifar-bun/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1.o	21b656a19e058d98
+2	34309	1679051629111480200	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG-fmnist-cifar-bun/code/cuda/binarizationPM1/build/temp.linux-x86_64-3.9/binarizePM1_kernel.o	189c3092490709cd
