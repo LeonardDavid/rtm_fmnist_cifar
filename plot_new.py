@@ -67,7 +67,7 @@ x_values = range(len(y_values))
 plt.plot(x_values, y_values)
 plt.yticks(range(0, 100, 5))
 # plt.yticks(range(80, 90, 1))
-plt.xticks(range(0, len(x_values) + 1, int(len(x_values)/1))) # !!! int(len(x_values)/10
+plt.xticks(range(0, len(x_values) + 1, int(len(x_values)/10)))
 plt.axhline(y=baseline, color='r', linestyle='--')
 
 plt.grid(True)
