@@ -1,0 +1,129 @@
+Available GPUs:  [0]
+Currently used GPU:  0
+Successfully created the directory /mnt/c/Users/leona/projects/tu-dortmund/RTM/rtm_fmnist_cifar/experiments/VGG3/results-21-03-2023-12:44:20
+Loaded model:  model_fmnist9108.pt
+-----------------------------
+Inference #0
+Error rate:  1e-06
+
+Accuracy: 91.08%
+
+-----------------------------
+Inference #1
+Error rate:  1e-06
+
+Accuracy: 91.08%
+
+-----------------------------
+Inference #2
+Error rate:  1e-06
+
+Accuracy: 91.08%
+
+-----------------------------
+Inference #3
+Error rate:  1e-06
+
+Accuracy: 91.08%
+
+-----------------------------
+Inference #4
+Error rate:  1e-06
+
+Accuracy: 91.08%
+
+-----------------------------
+Inference #5
+Error rate:  1e-06
+
+Accuracy: 91.08%
+
+-----------------------------
+Inference #6
+Error rate:  1e-06
+
+Accuracy: 91.08%
+
+-----------------------------
+Inference #7
+Error rate:  1e-06
+
+Accuracy: 91.08%
+
+-----------------------------
+Inference #8
+Error rate:  1e-06
+
+Accuracy: 91.07%
+
+-----------------------------
+Inference #9
+Error rate:  1e-06
+
+Accuracy: 91.07%
+
+-----------------------------
+Inference #10
+Error rate:  1e-06
+
+Accuracy: 91.07%
+
+-----------------------------
+Inference #11
+Error rate:  1e-06
+
+Accuracy: 91.07%
+
+-----------------------------
+Inference #12
+Error rate:  1e-06
+
+Accuracy: 91.07%
+
+-----------------------------
+Inference #13
+Error rate:  1e-06
+
+Accuracy: 91.07%
+
+-----------------------------
+Inference #14
+Error rate:  1e-06
+
+Accuracy: 91.06%
+
+-----------------------------
+Inference #15
+Error rate:  1e-06
+
+Accuracy: 91.06%
+
+-----------------------------
+Inference #16
+Error rate:  1e-06
+
+Accuracy: 91.07%
+
+-----------------------------
+Inference #17
+Error rate:  1e-06
+
+Accuracy: 91.07%
+
+-----------------------------
+Inference #18
+Error rate:  1e-06
+
+Accuracy: 91.06%
+
+-----------------------------
+Inference #19
+Error rate:  1e-06
+
+Accuracy: 91.06%
+
+-----------------------------
+Successfully stored results in /mnt/c/Users/leona/projects/tu-dortmund/RTM/rtm_fmnist_cifar/experiments/VGG3/results-21-03-2023-12:44:20/results.jsonl
+-----------------------------
+[91.08000000000001, 91.08000000000001, 91.08000000000001, 91.08000000000001, 91.08000000000001, 91.08000000000001, 91.08000000000001, 91.08000000000001, 91.07, 91.07, 91.07, 91.07, 91.07, 91.07, 91.06, 91.06, 91.07, 91.07, 91.06, 91.06]
+-----------------------------
