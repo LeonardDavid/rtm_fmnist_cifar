@@ -40,3 +40,5 @@
 3	35401	1678984735563749400	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG/code/cuda/binarizationPM1FI/build/temp.linux-x86_64-3.9/binarizePM1FI_kernel.o	942d22d01412f5af
 2	14210	1679051646203635700	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG-fmnist-cifar-bun/code/cuda/binarizationPM1FI/build/temp.linux-x86_64-3.9/binarizePM1FI.o	ba914a862b360771
 2	34777	1679051666770494500	/mnt/c/Users/leona/projects/tu-dortmund/rtm/RTM_SPICE-Torch-10AUG-fmnist-cifar-bun/code/cuda/binarizationPM1FI/build/temp.linux-x86_64-3.9/binarizePM1FI_kernel.o	51da4d4c562b5a
+3	13866	1679395318769462300	/mnt/c/Users/leona/projects/tu-dortmund/RTM/rtm_fmnist_cifar/code/cuda/binarizationPM1FI/build/temp.linux-x86_64-3.9/binarizePM1FI.o	17cef2933627cb62
+3	32904	1679395337805585700	/mnt/c/Users/leona/projects/tu-dortmund/RTM/rtm_fmnist_cifar/code/cuda/binarizationPM1FI/build/temp.linux-x86_64-3.9/binarizePM1FI_kernel.o	cbb6896c68db12e1

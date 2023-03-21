@@ -3,6 +3,11 @@
 #   LDB
 #   
 #   automation script for running RTM simulation
+# 
+#   args:
+#   $1  NN_MODEL:   FMNIST  CIFAR   RESNET
+#   $2  LOOPS:      Number of inference iterations
+#   $3  GPU:        GPU to be used (0, 1)
 #
 ##########################################################################################
 
@@ -53,8 +58,11 @@ STEP_SIZE=25
 TEST_ERROR=1
 TEST_RTM=1
 LOOPS=$2
-declare -a PERRORS=(0.1 0.01 0.001 0.0001)
+GPU=$3
 # declare -a PERRORS=(0.1)
+# declare -a PERRORS=(0.1 0.01 0.001 0.0001)
+declare -a PERRORS=(0.001 0.0001 0.00001 0.000001)
+
 
 
 for p in "${PERRORS[@]}"
@@ -62,7 +70,7 @@ do
     echo -e "\n\033[0;32mRunning $NN_MODEL for $LOOPS loops with error: $p\033[0m\n"
     
     output_file="$output_dir/output_$LOOPS-$p.txt"
-    python run.py --model=${MODEL} --dataset=${DATASET} --batch-size=${BATCH_SIZE} --epochs=${EPOCHS} --lr=${LR} --step-size=${STEP_SIZE} --test-error=${TEST_ERROR} --load-model-path=${MODEL_PATH} --loops=${LOOPS} --perror=$p --test_rtm=${TEST_RTM} | tee "$output_file"
+    python run.py --model=${MODEL} --dataset=${DATASET} --batch-size=${BATCH_SIZE} --epochs=${EPOCHS} --lr=${LR} --step-size=${STEP_SIZE} --test-error=${TEST_ERROR} --load-model-path=${MODEL_PATH} --loops=${LOOPS} --perror=$p --test_rtm=${TEST_RTM} --gpu-num=$GPU | tee "$output_file"
     python plot_new.py ${output_file} ${results_dir} ${NN_MODEL} ${LOOPS} ${p}
 done
 
