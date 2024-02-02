@@ -58,12 +58,12 @@ def test(model, device, test_loader, pr=1):
         # with data, target in test_loader:
             data, target = data.to(device), target.to(device)
             #TODO? index_offsets = model.getIndexOffsets().to(device)
-            print("+")
+            # print("+")
             # print(data)
             # print(target)
             # print(test_loader)
             output = model(data)
-            print("-")
+            # print("-")
             test_loss += criterion(output, target).item()  # sum up batch loss
             pred = output.argmax(dim=1, keepdim=True)  # get the index of the max log-probability
             correct += pred.eq(target.view_as(pred)).sum().item()

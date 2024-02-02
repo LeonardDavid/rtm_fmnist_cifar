@@ -113,19 +113,6 @@ class QuantizedLinear(nn.Linear):
                 quantized_weight = quantize(self.weight, self.quantization)
             else:
                 quantized_weight = self.weight
-
-            # print(quantized_weight)
-            # print(sum(quantized_weight))
-                
-            # # Convert the tensor to a list of integers
-            # list_of_integers = quantized_weight.cpu().tolist()
-
-            # # Open a file in write mode
-            # with open('qweights_'+str(self.layerNR)+'.txt', 'w') as f:
-            #     # Write the list of integers to the file
-            #     for integer in list_of_integers:
-            #         f.write(str(integer) + '\n')
-
             if self.error_model is not None:
                 # probability: error_model.p
                 # print(self.error_model.p)
@@ -262,19 +249,6 @@ class QuantizedConv2d(nn.Conv2d):
             else:
                 quantized_weight = self.weight
                 quantized_bias = self.bias
-
-            # print(quantized_weight)
-            # print(sum(quantized_weight))
-                
-            # # Convert the tensor to a list of integers
-            # list_of_integers = quantized_weight.cpu().tolist()
-
-            # # Open a file in write mode
-            # with open('qweights_'+str(self.layerNR)+'.txt', 'w') as f:
-            #     # Write the list of integers to the file
-            #     for integer in list_of_integers:
-            #         f.write(str(integer) + '\n')
-
             if self.error_model is not None:
                 # probability: error_model.p
                 # print(self.error_model.p)
