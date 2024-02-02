@@ -25,3 +25,6 @@ To change `error_rate` go into `run_auto_all.sh` and choose or edit around line 
 example for RESNET loops=1 block_size=64 layer=4 (index in cli is from 0) gpu=0:
 
 ``` bash ./run_auto_all.sh RESNET 1 64 3 0 ```
+
+# SPICE-Torch
+A framework for connecting SPICE simulations of analog computing neuron circuits with PyTorch accuracy evaluations for Binarized (and soon Quantized) Neural Networks.
