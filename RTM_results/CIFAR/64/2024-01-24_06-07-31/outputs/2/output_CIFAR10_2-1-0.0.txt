@@ -1,0 +1,40 @@
+Available GPUs:  [0]
+Currently used GPU:  0
+Files already downloaded and verified
+[1, 0, 1, 1, 1, 1, 1, 1]
+[0, 0, 0, 0, 0, 0, 0, 0]
+Successfully created the directory /mnt/c/Users/leona/Projects/TU-Dortmund/RTM/rtm_fmnist_cifar/experiments/VGG7/results-24-01-2024-06:07:38
+Loaded model:  model_cifar8582.pt
+block_size:  64
+-----------------------------
+Inference #0
+Error rate:  0.0
++
+-
++
+-
++
+-
++
+-
++
+-
++
+-
++
+-
++
+-
++
+-
++
+-
+
+Accuracy: 85.82%
+
+total_err_shifts:  [0, 0, 0, 0, 0, 0, 0, 0]
+-----------------------------
+Successfully stored results in /mnt/c/Users/leona/Projects/TU-Dortmund/RTM/rtm_fmnist_cifar/experiments/VGG7/results-24-01-2024-06:07:38/results.jsonl
+-----------------------------
+[85.82]
+-----------------------------

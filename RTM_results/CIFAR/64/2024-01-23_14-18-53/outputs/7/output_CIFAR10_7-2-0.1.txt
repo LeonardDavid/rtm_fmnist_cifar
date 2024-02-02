@@ -1,0 +1,107 @@
+Available GPUs:  [0]
+Currently used GPU:  0
+Files already downloaded and verified
+[1, 1, 1, 1, 1, 1, 0, 1]
+[0, 0, 0, 0, 0, 0, 0, 0]
+Successfully created the directory /mnt/c/Users/leona/Projects/TU-Dortmund/RTM/rtm_fmnist_cifar/experiments/VGG7/results-23-01-2024-14:19:01
+Loaded model:  model_cifar8582.pt
+block_size:  64
+-----------------------------
+Inference #0
+Error rate:  0.1
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
+
+Accuracy: 10.00%
+
+total_err_shifts:  [0, 0, 0, 0, 0, 0, 8253573, 0]
+-----------------------------
+Inference #1
+Error rate:  0.1
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
++
+tensor([ 6., -6., 30.,  ...,  6., 22., -4.], device='cuda:0')
+tensor([ 10., -10., -10.,  ...,  -8.,  -4.,  -2.], device='cuda:0')
+-
+
+Accuracy: 10.00%
+
+total_err_shifts:  [0, 0, 0, 0, 0, 0, 16512010, 0]
+-----------------------------
+Successfully stored results in /mnt/c/Users/leona/Projects/TU-Dortmund/RTM/rtm_fmnist_cifar/experiments/VGG7/results-23-01-2024-14:19:01/results.jsonl
+-----------------------------
+[10.0, 10.0]
+-----------------------------

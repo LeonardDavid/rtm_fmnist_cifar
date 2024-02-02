@@ -13,6 +13,8 @@ import os
 from datetime import datetime
 sys.path.append("code/python/")
 
+from memory_profiler import profile
+
 from Utils import Scale, Clippy, set_layer_mode, parse_args, dump_exp_data, create_exp_folder, store_exp_data, Criterion, binary_hingeloss
 
 from QuantizedNN import QuantizedLinear, QuantizedConv2d, QuantizedActivation
@@ -53,9 +55,15 @@ def test(model, device, test_loader, pr=1):
     criterion = nn.CrossEntropyLoss(reduction="sum")
     with torch.no_grad():
         for data, target in test_loader:
+        # with data, target in test_loader:
             data, target = data.to(device), target.to(device)
             #TODO? index_offsets = model.getIndexOffsets().to(device)
+            print("+")
+            # print(data)
+            # print(target)
+            # print(test_loader)
             output = model(data)
+            print("-")
             test_loss += criterion(output, target).item()  # sum up batch loss
             pred = output.argmax(dim=1, keepdim=True)  # get the index of the max log-probability
             correct += pred.eq(target.view_as(pred)).sum().item()
@@ -137,6 +145,7 @@ def test(model, device, test_loader, pr=1):
 
 #     return all_accuracies
 
+# @profile
 def test_error(model, device, test_loader, perror):
     model.eval()
     set_layer_mode(model, "eval") # propagate informaton about eval to all layers
@@ -154,7 +163,8 @@ def test_error(model, device, test_loader, perror):
 
     print("Error rate: ", perror)
     accuracy = test(model, device, test_loader)
-        
+    
+    print("total_err_shifts: ", model.err_shifts)
     # print("end")
     # print(model.printIndexOffsets())
     # print(model.printLostValsR())

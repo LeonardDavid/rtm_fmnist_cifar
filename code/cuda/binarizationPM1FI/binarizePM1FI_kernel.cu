@@ -48,6 +48,7 @@ __global__ void binarizePM1FI_kernel(
     //   printf("%f ", d_index_offset_flat[c]);
     // }
 
+    // printf("%d\n", block_size);
     size_t index = c*row_size + blockIdx.y;
     // int bound = d - blockIdx.y*block_size - d_index_offset_flat[index];
     if(0 <= d - d_index_offset_flat[index] && d_index_offset_flat[index] < row_size*block_size){
@@ -188,6 +189,7 @@ torch::Tensor binarizePM1FI_cuda(
   // print(input[0]);
   
   cudaFree(d_index_offset_flat);
+  delete index_offset_flat;
   
   return input;
 }

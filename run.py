@@ -94,9 +94,11 @@ def main():
     if args.model == "VGG3":
         nn_model = VGG3
         model = nn_model().cuda()
+        # protectLayers = [1, 1, 1, 1]
     if args.model == "VGG7":
         nn_model = VGG7
         model = nn_model().cuda()
+        # protectLayers = [1, 1, 1, 1, 1, 1, 1, 1]
     if args.model == "ResNet":
         nn_model = ResNet# nn_model(BasicBlock, [2, 2, 2, 2]).to(device)
         # model = nn_model().cuda()
@@ -160,10 +162,15 @@ def main():
     train_loader = torch.utils.data.DataLoader(dataset1,**train_kwargs)
     test_loader = torch.utils.data.DataLoader(dataset2, **test_kwargs)
 
-    block_size = 64 # 96, 128
+    protectLayers = args.protect_layers
+    print(protectLayers)
+    err_shifts = args.err_shifts
+    print(err_shifts)
+    block_size = args.block_size # 64, 128, 256
     # TODO set flag for training to disable offset simulation
-    model = nn_model(quantMethod=binarizepm1, quantize_train=q_train, quantize_eval=q_eval, error_model=binarizepm1fi, test_rtm = args.test_rtm, block_size = block_size).to(device)
+    model = nn_model(quantMethod=binarizepm1, quantize_train=q_train, quantize_eval=q_eval, error_model=binarizepm1fi, test_rtm = args.test_rtm, block_size = block_size, protectLayers = protectLayers, err_shifts=err_shifts).to(device)
     # print(model.getBlockSize())
+    # print(model)
 
     # print(model.name)
     # create experiment folder and file
@@ -204,6 +211,7 @@ def main():
     if args.load_model_path is not None:
             to_load = args.load_model_path
             print("Loaded model: ", to_load)
+            print("block_size: ", block_size)
             print("-----------------------------")
             model.load_state_dict(torch.load(to_load, map_location='cuda:0'))
 
